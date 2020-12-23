@@ -5,10 +5,10 @@ import socket
 import random
 import json
 
-option_a = os.getenv('OPTION_A', "Sublime")
-option_b = os.getenv('OPTION_B', "Atom")
+option_a = os.getenv('OPTION_A', "Dynamic Mic")
+option_b = os.getenv('OPTION_B', "Condenser Mic")
 hostname = socket.gethostname()
-version = 'v-adb-xx'
+version = 'v-adb-05'
 
 app = Flask(__name__)
 
